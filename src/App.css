@@ -1,0 +1,148 @@
+:root {
+    --primary: #111b54;
+    --light: #ffffff;
+    --grey: #efefef;
+}
+
+body {
+    overflow: hidden;
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+a, a:hover {
+    text-decoration: none !important;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+.bg-grey {
+    background-color: var(--grey) !important;
+}
+
+.bg-mix {
+    background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0);
+}
+
+.btn {
+    border: 0;
+    background-color: var(--primary) !important;
+    color: var(--light) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary);
+}
+
+/* .sidebar {
+} */
+
+
+#sidebar-container {
+    background-color: var(--primary);
+    min-height: 100vh;
+}
+
+#sidebar-container .logo {
+    padding: 0.875rem 1.25rem;
+}
+
+#sidebar-container .menu {
+    width: 18rem;
+}
+
+#content {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.avatar {
+    max-width: 35px;
+}
+
+.btn-search {
+    right: 0;
+}
+
+.stat {
+    border-right: 1px solid var(--grey);
+}
+
+.modal-with {
+    max-width: 1300px !important;
+    width: 100% !important;
+}
+
+.btn-1 {
+    border: 3px solid #111b54;
+    width: 75%;
+    border-radius: 30px;
+    color: var(--secondary-color);
+    background-color: #111b54;
+}
+
+.btn-2 {
+    border: 3px solid #111b54;
+    width: 75%;
+    border-radius: 30px;
+    color: var(--primary-color);
+}
+
+/* LOOGIn */
+.text-light {
+    color: #ffffff !important;
+}
+.bg-dark {
+    background-color: #16191c !important;
+}
+.bg-dark-x {
+    background-color: #1e2126;
+}
+
+.form-login .btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.google:hover {
+    background-color: #ea4335;
+    color: white;
+}
+
+.facebook:hover {
+    background-color: #4267b3;
+    color: white;
+}
+
+.form-login .form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.img-1 {
+    background-image: url("assets/frente-edificio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    #sidebar-container {
+        display: none;
+    }
+    .stat {
+        border: 0;
+    }
+}
