@@ -6,8 +6,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-.env
-
 lerna-debug.log*
 
 node_modules
